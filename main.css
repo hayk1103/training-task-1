@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    background: #ecf0f1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    height: 25vh;
+    width: 10vw;
+    margin: 0 10px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.first {
+    animation: firstAnimation 1s infinite;
+    background: #9b59b6;
+}
+.second {
+    animation: secondAnimation 1s infinite;
+    background: #8e44ad;
+}
+.third {
+    animation: thirdAnimation 1s infinite;
+    background: #8e44ad;
+}
+
+.fourth {
+    animation: fourthAnimation 1s infinite;
+    background: #9b59b6;
+}
+
+@keyframes firstAnimation {
+    0% {
+        height: 25vw;
+    }
+
+    25% {
+        height: 50vw;
+    }
+
+    75% {
+        height: 25vw;
+    }
+}
+
+@keyframes secondAnimation {
+    0% {
+        height: 25vw;
+    }
+
+    50% {
+        height: 50vw
+    }
+
+    100% {
+        height: 25vw;
+    }
+}
+
+@keyframes thirdAnimation {
+    75% {
+        height: 50vw
+    }
+
+    100% {
+        height: 25vw;
+    }
+}
+
+@keyframes fourthAnimation {
+    0% {
+        height: 50vw;
+    }
+
+    50% {
+        height: 25vw;
+    }
+
+    100% {
+        height: 50vw;
+    }
+}
