@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 21px 0 30px ;
+}
+
+.links {
+    padding-top: 10px;
+    margin: 0 41px;
+}
+
+.links a {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgba(102, 102, 102, 0.671);
+    text-decoration: none;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.login {
+    padding-top: 10px;
+}

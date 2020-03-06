@@ -1,0 +1,64 @@
+@import './header.css';
+@import './banner.css';
+@import './content.css';
+@import './footer.css';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.all {
+    width: 100%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.white {
+    color: #fff;
+}
+
+.grey {
+    color: #515151;
+}
+
+.lightgrey {
+    color: #8e8e8e;
+}
+
+.green {
+    color: #b7d048;
+}
+
+.title {
+    font-size: 49.2px;
+}
+
+.subtitle {
+    font-size: 35.2px;
+}
+
+.h1 {
+    font-size: 31.2px;
+}
+
+.p {
+    width: 936px;
+    line-height: 1.2;
+    font-size: 19.2px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+}  
+
+.m-0 {
+    margin: 0;
+}
