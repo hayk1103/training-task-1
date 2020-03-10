@@ -22,3 +22,10 @@
 .login {
     padding-top: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+}

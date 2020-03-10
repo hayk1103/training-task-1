@@ -193,20 +193,25 @@
 
 .card .images {
     height: 226px;
-    background-size: cover;
     text-align: left;
 }
 
 .card-1 .images {
     background: url("../images/content/card-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-2 .images {
     background: url("../images/content/card-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card-3 .images {
     background: url("../images/content/card-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card .images p {
@@ -323,4 +328,62 @@
     font-size: 15.2px;
     color: #4a4a4a;
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sec-2 .tabs {
+        width: 80%;
+        overflow-x: scroll;
+    }
+
+    .sec-2 .cont {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .sec-3 {
+        display: block;
+    }
+
+    .sec-3 .find {
+        width: 100%;
+    }
+
+    .description {
+        display: block;
+    }
+
+    .description div {
+        width: 100%;
+    }
+
+    .description button {
+        margin-left: 50%;
+        transform: translate(-50%, 0);
+        margin-bottom: 20px;
+    }
+
+    .sec-4 .cards {
+        display: block;
+    }
+
+    .sec-4 .cards .card {
+        width: 80%;
+        margin: 0 auto 20px;
+        padding-bottom: 10px;
+    }
+    
+    .sec-5 .recomends {
+        display: block;
+    }
+
+    .recomends .each .said, .recomends .each .author {
+        margin: 0 auto;
+    }
+
+    .recomends .each .author {
+        display: block;
+    }
+
 }

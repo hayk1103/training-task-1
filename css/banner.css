@@ -26,3 +26,9 @@
 .arrows img:first-child {
     margin-right: 32px;
 }
+
+@media only screen and (max-width: 800px) {
+    .arrows {
+        display: none;
+    }
+}
